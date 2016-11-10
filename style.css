@@ -73,7 +73,6 @@ p {
 }
 
 img {
-  max-width: 100%;
 }
 
 .supplementary {
@@ -94,16 +93,4 @@ footer {
   clear: both;
   color: #FFF;
   padding: 10px 20px;
-}
-
-@media (max-width: 775px) {
-  .supplementary {
-    float: none;
-    width: auto;
-  }
-
-  .main-content {
-    float: none;
-    width: auto;
-  }
 }
